@@ -9,9 +9,9 @@ Correspondance: jul316@lehigh.edu or wonpil@lehigh.edu
 Last update: March 29, 2017
 """
 
-from simtk.unit import *
-from simtk.openmm import *
-from simtk.openmm.app import *
+from OpenMM.unit import *
+from openmm import *
+from openmm.app import *
 
 def barostat(system, inputs):
 
